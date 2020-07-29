@@ -15,7 +15,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Comment {
+public class Comment extends BaseEntity {
     
     @Id
     @GeneratedValue
